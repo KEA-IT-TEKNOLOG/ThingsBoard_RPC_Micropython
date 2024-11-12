@@ -15,3 +15,10 @@ Vælg target device (din esp32 og det navn du selv har givet den)
 
 Vælg apperence og konfigurer med følgende indstillinger:
 ![billede](https://github.com/user-attachments/assets/01cb6d8c-76da-4b9c-8330-619d28edd521)
+
+Vælg derefter add:
+![billede](https://github.com/user-attachments/assets/3e8222bd-30fe-4747-b9c7-c85ed41794da)
+
+Vælg så save i højre hjørne:
+![billede](https://github.com/user-attachments/assets/098bd592-220f-4112-ab00-73e96ed12d3c)
+

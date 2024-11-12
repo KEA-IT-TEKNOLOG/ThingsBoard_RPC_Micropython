@@ -23,3 +23,7 @@ Vælg derefter add:
 Vælg så save i højre hjørne:
 ![billede](https://github.com/user-attachments/assets/098bd592-220f-4112-ab00-73e96ed12d3c)
 
+Følg samme tilgang igen og tilføj nu en ny control widget til dashboardet og vælg denne gang "RPC remote shell" og vælg samme device:
+![billede](https://github.com/user-attachments/assets/d560a0cb-eeb2-44ff-8188-6a2060a0eb57)
+
+

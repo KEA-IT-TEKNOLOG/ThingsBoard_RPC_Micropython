@@ -28,13 +28,16 @@ def handler(req_id, method, params):
     print(f'Response {req_id}: {method}, params {params}')
     print(params, "params type:", type(params))
     try:
-        # check if the method is "toggle_led1"
+        # check if the method is "toggle_led1" (needs to be configured on thingsboard dashboard)
         if method == "toggle_led1":
             # check if the value is is "led1 on"
             if params == True:
                 print("led1 on")
             else:
                 print("led1 off")
+        # check if command is send from RPC remote shell widget       
+        if params.get("command"):
+            print(params.get("command"))
 
     except TypeError as e:
         print(e)
@@ -56,9 +59,9 @@ while True:
         if gc.mem_free() < 2000:
             print("Garbage collected!")
             gc.collect()
-            
-            
-        # Sending telemetry       
+        
+        # uncomment for sending telemetry from device to server       
+        
         #telemetry = {}
         #client.send_telemetry(telemetry)
         
@@ -67,7 +70,7 @@ while True:
         
         # Checking for incoming subscriptions or RPC call requests (non-blocking)
         client.check_msg()
-        sleep(3) # Blocking sleep
+        sleep(3) # blocking delay
     except KeyboardInterrupt:
         print("Disconnected!")
         # Disconnecting from ThingsBoard

@@ -3,6 +3,7 @@ Opret et nyt dashboard og vælg add widget:
 ![billede](https://github.com/user-attachments/assets/6730b6ce-2449-4013-b912-cbde4ddbb873)
 
 Vælg control widgets:
+
 ![billede](https://github.com/user-attachments/assets/6e9781ee-13cf-4249-8a48-6c17a2f2c9d4)
 
 Vælg Round switch:

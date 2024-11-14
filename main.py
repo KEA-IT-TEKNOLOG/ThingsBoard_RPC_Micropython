@@ -35,8 +35,8 @@ def handler(req_id, method, params):
                 print("led1 on")
             else:
                 print("led1 off")
-        # check if command is send from RPC remote shell widget       
-        if params.get("command"):
+        # check if command is send from RPC remote shell widget   
+        if method == "sendCommand":
             print(params.get("command"))
 
     except TypeError as e:

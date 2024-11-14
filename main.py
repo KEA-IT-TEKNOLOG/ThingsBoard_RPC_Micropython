@@ -46,6 +46,7 @@ def handler(req_id, method, params):
 # https://thingsboard.io/docs/user-guide/rpc/
         
 # See examples for more authentication options
+# https://github.com/thingsboard/thingsboard-micropython-client-sdk/
 client = TBDeviceMqttClient(secrets.SERVER_IP_ADDRESS, access_token = secrets.ACCESS_TOKEN)
 
 
